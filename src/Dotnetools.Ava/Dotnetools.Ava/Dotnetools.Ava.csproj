@@ -17,5 +17,7 @@
     <PackageReference Include="Avalonia.ReactiveUI" Version="$(AvaloniaVersion)" />
     <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
     <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="$(AvaloniaVersion)" />
+    <PackageReference Include="GTranslate" Version="2.1.6" />
+    <PackageReference Include="Slugify.Core" Version="5.0.0-prerelease.4" />
   </ItemGroup>
 </Project>
